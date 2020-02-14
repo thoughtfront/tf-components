@@ -1,0 +1,41 @@
+{
+  "name": "tf-components",
+  "version": "0.0.1",
+  "description": "React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtfront/tf-components.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": {
+    "name": "Christopher Dimoulis",
+    "email": "christopherjamesd@gmail.com",
+    "url": "http://chrisdimoulis.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoughtfront/tf-components/issues"
+  },
+  "homepage": "https://github.com/thoughtfront/tf-components#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/react": "^5.3.13"
+  }
+}
