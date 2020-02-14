@@ -1,10 +1,13 @@
 {
-  "name": "tf-components",
+  "name": "@tf/components",
   "version": "0.0.1",
   "description": "React components",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "npm run build:lib",
+    "build:lib": "./node_modules/.bin/babel src --out-dir lib --presets @babel/preset-env,@babel/preset-react --plugins @babel/plugin-proposal-class-properties",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run storybook",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook"
   },
@@ -32,10 +35,16 @@
     "react-scripts": "^3.3.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addon-links": "^5.3.13",
     "@storybook/addons": "^5.3.13",
     "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.13"
+    "@storybook/react": "^5.3.13",
+    "babel-loader": "^8.0.6"
   }
 }

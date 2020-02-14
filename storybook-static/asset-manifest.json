@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/thoughtfront/tf-components/main.ca3bc15696e1873196ac.bundle.js",
+    "main.js.map": "/thoughtfront/tf-components/main.ca3bc15696e1873196ac.bundle.js.map",
+    "runtime~main.js": "/thoughtfront/tf-components/runtime~main.ca3bc15696e1873196ac.bundle.js",
+    "runtime~main.js.map": "/thoughtfront/tf-components/runtime~main.ca3bc15696e1873196ac.bundle.js.map",
+    "vendors~main.js": "/thoughtfront/tf-components/vendors~main.ca3bc15696e1873196ac.bundle.js",
+    "vendors~main.js.map": "/thoughtfront/tf-components/vendors~main.ca3bc15696e1873196ac.bundle.js.map",
+    "iframe.html": "/thoughtfront/tf-components/iframe.html",
+    "precache-manifest.951261194f9da568fbb507ff8ac8309e.js": "/thoughtfront/tf-components/precache-manifest.951261194f9da568fbb507ff8ac8309e.js",
+    "service-worker.js": "/thoughtfront/tf-components/service-worker.js",
+    "vendors~main.ca3bc15696e1873196ac.bundle.js.LICENSE.txt": "/thoughtfront/tf-components/vendors~main.ca3bc15696e1873196ac.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.ca3bc15696e1873196ac.bundle.js",
+    "vendors~main.ca3bc15696e1873196ac.bundle.js",
+    "main.ca3bc15696e1873196ac.bundle.js"
+  ]
+}
